@@ -16,9 +16,19 @@ public class Main {
         cond = false;
     }
     public static void main(String[] args) {
+
         Main elem = new Main();
-        elem.Cleaner();
-        Main elem1 = new Main();
+        Main h = new Main();
+
+        System.out.println(h);
+        System.out.println(elem);
+
+        elem = h;
+        System.out.println(h);
+        System.out.println(elem);
+        System.out.println();
         System.gc();
+        System.out.println("Free memory (bytes): " +
+                Runtime.getRuntime().freeMemory());
     }
 }
