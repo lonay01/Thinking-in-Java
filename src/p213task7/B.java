@@ -1,7 +1,7 @@
 package p213task7;
 
 public class B {
-    B() {
-        System.out.println("B");
+    B(int i) {
+        System.out.println("B : " + i);
     }
 }
