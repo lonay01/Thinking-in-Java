@@ -14,7 +14,7 @@ public class Beetle extends Inspect {
 
     public static void main(String[] args) {
         System.out.println("Конструктор Beetle");
-        Beetle b = new BeetleChild();
+        Beetle b = new BeetleChildСhild();
     }
 }
 
@@ -40,4 +40,10 @@ class BeetleChild extends Beetle {
     static {
         System.out.println("BeetleChild initialization");
     }
+}
+    class BeetleChildСhild extends BeetleChild {
+
+        static {
+            System.out.println("BeetleChildСhild initialization");
+        }
 }
