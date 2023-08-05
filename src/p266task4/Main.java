@@ -3,7 +3,7 @@ package p266task4;
 import static p266task4.New.sm;
 
 abstract class Base {
-    abstract void method();
+     void method() {};
 }
 
 class New extends Base {
